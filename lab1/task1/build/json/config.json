@@ -1,0 +1,21 @@
+{
+    "configs":
+    [
+        {
+            "target": "log/test.txt",
+            "severity": 1
+        },
+        {
+            "target": "log/test1.txt",
+            "severity": 3
+        },
+        {
+            "target": "log/test.txt",
+            "severity": 5
+        },
+        {
+            "target": "console",
+            "severity": 0
+        }
+    ]
+}

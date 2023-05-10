@@ -1,0 +1,22 @@
+# ninja log v5
+242	285	1682189464408648874	task3	3afaa57e5dd6ac54
+0	192	1682183269152108928	CMakeFiles/task3.dir/src/memory/memory.cpp.o	266c169c2c9fc58e
+1	254	1682189407320728786	CMakeFiles/task3.dir/src/task3.cpp.o	5961ed857426d0c4
+0	242	1682189464366648932	CMakeFiles/task3.dir/src/allocator_list/allocator_list.cpp.o	14d3d8bb1df6e7c
+3	313	1682190726308346976	CMakeFiles/task3.dir/src/memory/memory.cpp.o	cfec0714a08b9481
+3	378	1682190726373346738	CMakeFiles/task3.dir/src/builder_concrete/builder_concrete.cpp.o	3fc78b92cc2e88f8
+1	406	1682190726400346639	CMakeFiles/task3.dir/src/builder/builder.cpp.o	9ae986fbb885409e
+3	409	1682190726404346625	CMakeFiles/task3.dir/src/logger/logger.cpp.o	a7a356b84d71368e
+3	458	1682190726452346449	CMakeFiles/task3.dir/src/task3.cpp.o	531df30ba47451c2
+3	618	1682190726613345862	CMakeFiles/task3.dir/src/logger_concrete/logger_concrete.cpp.o	ae7ff2738e7c8d46
+313	647	1682190726642345756	CMakeFiles/task3.dir/src/allocator_list/allocator_list.cpp.o	fc65b99536a6c031
+647	705	1682190726698345551	task3	abbaeceb583871b2
+0	285	1682190763356211633	CMakeFiles/task3.dir/src/task3.cpp.o	531df30ba47451c2
+1	325	1682190763396211487	CMakeFiles/task3.dir/src/allocator_list/allocator_list.cpp.o	fc65b99536a6c031
+0	394	1682190763465211235	CMakeFiles/task3.dir/src/builder/builder.cpp.o	9ae986fbb885409e
+0	454	1682190763525211016	CMakeFiles/task3.dir/src/builder_concrete/builder_concrete.cpp.o	3fc78b92cc2e88f8
+0	500	1682190763570210851	CMakeFiles/task3.dir/src/logger_concrete/logger_concrete.cpp.o	ae7ff2738e7c8d46
+500	564	1682190763633210621	task3	abbaeceb583871b2
+1	252	1682251379541787800	CMakeFiles/task3.dir/src/task3.cpp.o	531df30ba47451c2
+2	285	1682251379574787745	CMakeFiles/task3.dir/src/allocator_list/allocator_list.cpp.o	fc65b99536a6c031
+285	349	1682251379637787640	task3	abbaeceb583871b2

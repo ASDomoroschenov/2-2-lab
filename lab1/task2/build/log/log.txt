@@ -1,0 +1,2 @@
+[18/03/2023 17:48:00] [INFORMATION] allocator is created
+[18/03/2023 17:48:00] [INFORMATION] block (0xbfced0) size allocated from allocator: 32

@@ -1,0 +1,15 @@
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 3
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 2
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 4
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 1
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 5
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 0
+[05/06/2023 16:45:41] [INFORMATION] Allocate node with key: 6
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 3
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 2
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 6
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 5
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 4
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 2
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 1
+[05/06/2023 16:45:41] [INFORMATION] Deallocate bin_node with key: 0

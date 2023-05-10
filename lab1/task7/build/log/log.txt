@@ -1,0 +1,605 @@
+[04/16/2023 15:49:35] [INFORMATION] allocator is created
+[04/16/2023 15:49:35] [INFORMATION] size of memory allocated for allocator: 100000000
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182060) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51820b8) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 1
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51820e4) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 2
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182110) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 3
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x518213c) size allocated from allocator: 28
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 4
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182170) size allocated from allocator: 32
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 5
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51821a8) size allocated from allocator: 32
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 6
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51821e0) size allocated from allocator: 36
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 7
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x518221c) size allocated from allocator: 40
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 8
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x518225c) size allocated from allocator: 44
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 9
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51822a0) size allocated from allocator: 48
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 10
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51822e8) size allocated from allocator: 52
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 11
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182334) size allocated from allocator: 56
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 12
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182384) size allocated from allocator: 60
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 13
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51823d8) size allocated from allocator: 64
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 14
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182430) size allocated from allocator: 72
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 15
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x5182490) size allocated from allocator: 76
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 16
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x51824f4) size allocated from allocator: 80
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 17
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:35] [INFORMATION] block (0x518255c) size allocated from allocator: 84
+[04/16/2023 15:49:35] [INFORMATION] deallocated block (0x518208c) : 18
+[04/16/2023 15:49:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51825c8) size allocated from allocator: 92
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 19
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x518263c) size allocated from allocator: 96
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51826b4) size allocated from allocator: 100
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 21
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182730) size allocated from allocator: 108
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 22
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51827b4) size allocated from allocator: 112
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 23
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x518283c) size allocated from allocator: 116
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 24
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51828c8) size allocated from allocator: 124
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 25
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x518295c) size allocated from allocator: 128
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 26
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51829f4) size allocated from allocator: 136
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 27
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182a94) size allocated from allocator: 140
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 28
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182b38) size allocated from allocator: 144
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 29
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182be0) size allocated from allocator: 152
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 30
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182c90) size allocated from allocator: 156
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 31
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182d44) size allocated from allocator: 164
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 32
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182e00) size allocated from allocator: 168
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 33
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182ec0) size allocated from allocator: 176
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 34
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5182f88) size allocated from allocator: 184
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 35
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5183058) size allocated from allocator: 188
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 36
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x518312c) size allocated from allocator: 196
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 37
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x5183208) size allocated from allocator: 200
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 38
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51832e8) size allocated from allocator: 208
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 39
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51833d0) size allocated from allocator: 212
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 40
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51834bc) size allocated from allocator: 220
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 41
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51835b0) size allocated from allocator: 228
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 42
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:36] [INFORMATION] block (0x51836ac) size allocated from allocator: 232
+[04/16/2023 15:49:36] [INFORMATION] deallocated block (0x518208c) : 43
+[04/16/2023 15:49:36] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x51837ac) size allocated from allocator: 240
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 44
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x51838b4) size allocated from allocator: 248
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 45
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x51839c4) size allocated from allocator: 252
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 46
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5183ad8) size allocated from allocator: 260
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 47
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5183bf4) size allocated from allocator: 268
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 48
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5183d18) size allocated from allocator: 272
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 49
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5183e40) size allocated from allocator: 280
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 50
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5183f70) size allocated from allocator: 288
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 51
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x51840a8) size allocated from allocator: 292
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 52
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x51841e4) size allocated from allocator: 300
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 53
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:37] [INFORMATION] block (0x5184328) size allocated from allocator: 308
+[04/16/2023 15:49:37] [INFORMATION] deallocated block (0x518208c) : 54
+[04/16/2023 15:49:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x5184474) size allocated from allocator: 316
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 55
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x51845c8) size allocated from allocator: 320
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 56
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x5184720) size allocated from allocator: 328
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 57
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x5184880) size allocated from allocator: 336
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 58
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x51849e8) size allocated from allocator: 344
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 59
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:38] [INFORMATION] block (0x5184b58) size allocated from allocator: 348
+[04/16/2023 15:49:38] [INFORMATION] deallocated block (0x518208c) : 60
+[04/16/2023 15:49:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:39] [INFORMATION] block (0x5184ccc) size allocated from allocator: 356
+[04/16/2023 15:49:39] [INFORMATION] deallocated block (0x518208c) : 61
+[04/16/2023 15:49:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:39] [INFORMATION] block (0x5184e48) size allocated from allocator: 364
+[04/16/2023 15:49:39] [INFORMATION] deallocated block (0x518208c) : 62
+[04/16/2023 15:49:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:39] [INFORMATION] block (0x5184fcc) size allocated from allocator: 372
+[04/16/2023 15:49:39] [INFORMATION] deallocated block (0x518208c) : 63
+[04/16/2023 15:49:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:39] [INFORMATION] block (0x5185158) size allocated from allocator: 380
+[04/16/2023 15:49:39] [INFORMATION] deallocated block (0x518208c) : 64
+[04/16/2023 15:49:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:39] [INFORMATION] block (0x51852ec) size allocated from allocator: 384
+[04/16/2023 15:49:39] [INFORMATION] deallocated block (0x518208c) : 65
+[04/16/2023 15:49:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:40] [INFORMATION] block (0x5185484) size allocated from allocator: 392
+[04/16/2023 15:49:40] [INFORMATION] deallocated block (0x518208c) : 66
+[04/16/2023 15:49:40] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:40] [INFORMATION] block (0x5185624) size allocated from allocator: 400
+[04/16/2023 15:49:40] [INFORMATION] deallocated block (0x518208c) : 67
+[04/16/2023 15:49:40] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:40] [INFORMATION] block (0x51857cc) size allocated from allocator: 408
+[04/16/2023 15:49:40] [INFORMATION] deallocated block (0x518208c) : 68
+[04/16/2023 15:49:40] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:40] [INFORMATION] block (0x518597c) size allocated from allocator: 416
+[04/16/2023 15:49:40] [INFORMATION] deallocated block (0x518208c) : 69
+[04/16/2023 15:49:40] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:40] [INFORMATION] block (0x5185b34) size allocated from allocator: 424
+[04/16/2023 15:49:40] [INFORMATION] deallocated block (0x518208c) : 70
+[04/16/2023 15:49:40] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:41] [INFORMATION] block (0x5185cf4) size allocated from allocator: 428
+[04/16/2023 15:49:41] [INFORMATION] deallocated block (0x518208c) : 71
+[04/16/2023 15:49:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:41] [INFORMATION] block (0x5185eb8) size allocated from allocator: 436
+[04/16/2023 15:49:41] [INFORMATION] deallocated block (0x518208c) : 72
+[04/16/2023 15:49:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:41] [INFORMATION] block (0x5186084) size allocated from allocator: 444
+[04/16/2023 15:49:41] [INFORMATION] deallocated block (0x518208c) : 73
+[04/16/2023 15:49:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:41] [INFORMATION] block (0x5186258) size allocated from allocator: 452
+[04/16/2023 15:49:41] [INFORMATION] deallocated block (0x518208c) : 74
+[04/16/2023 15:49:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:41] [INFORMATION] block (0x5186434) size allocated from allocator: 460
+[04/16/2023 15:49:41] [INFORMATION] deallocated block (0x518208c) : 75
+[04/16/2023 15:49:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:42] [INFORMATION] block (0x5186618) size allocated from allocator: 468
+[04/16/2023 15:49:42] [INFORMATION] deallocated block (0x518208c) : 76
+[04/16/2023 15:49:42] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:42] [INFORMATION] block (0x5186804) size allocated from allocator: 476
+[04/16/2023 15:49:42] [INFORMATION] deallocated block (0x518208c) : 77
+[04/16/2023 15:49:42] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:42] [INFORMATION] block (0x51869f8) size allocated from allocator: 484
+[04/16/2023 15:49:42] [INFORMATION] deallocated block (0x518208c) : 78
+[04/16/2023 15:49:42] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:42] [INFORMATION] block (0x5186bf4) size allocated from allocator: 488
+[04/16/2023 15:49:42] [INFORMATION] deallocated block (0x518208c) : 79
+[04/16/2023 15:49:42] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:43] [INFORMATION] block (0x5186df4) size allocated from allocator: 496
+[04/16/2023 15:49:43] [INFORMATION] deallocated block (0x518208c) : 80
+[04/16/2023 15:49:43] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:43] [INFORMATION] block (0x5186ffc) size allocated from allocator: 504
+[04/16/2023 15:49:43] [INFORMATION] deallocated block (0x518208c) : 81
+[04/16/2023 15:49:43] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:43] [INFORMATION] block (0x518720c) size allocated from allocator: 512
+[04/16/2023 15:49:43] [INFORMATION] deallocated block (0x518208c) : 82
+[04/16/2023 15:49:43] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:43] [INFORMATION] block (0x5187424) size allocated from allocator: 520
+[04/16/2023 15:49:43] [INFORMATION] deallocated block (0x518208c) : 83
+[04/16/2023 15:49:43] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:44] [INFORMATION] block (0x5187644) size allocated from allocator: 528
+[04/16/2023 15:49:44] [INFORMATION] deallocated block (0x518208c) : 84
+[04/16/2023 15:49:44] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:44] [INFORMATION] block (0x518786c) size allocated from allocator: 536
+[04/16/2023 15:49:44] [INFORMATION] deallocated block (0x518208c) : 85
+[04/16/2023 15:49:44] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:44] [INFORMATION] block (0x5187a9c) size allocated from allocator: 544
+[04/16/2023 15:49:44] [INFORMATION] deallocated block (0x518208c) : 86
+[04/16/2023 15:49:44] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:45] [INFORMATION] block (0x5187cd4) size allocated from allocator: 552
+[04/16/2023 15:49:45] [INFORMATION] deallocated block (0x518208c) : 87
+[04/16/2023 15:49:45] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:45] [INFORMATION] block (0x5187f14) size allocated from allocator: 560
+[04/16/2023 15:49:45] [INFORMATION] deallocated block (0x518208c) : 88
+[04/16/2023 15:49:45] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:45] [INFORMATION] block (0x518815c) size allocated from allocator: 568
+[04/16/2023 15:49:45] [INFORMATION] deallocated block (0x518208c) : 89
+[04/16/2023 15:49:45] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:45] [INFORMATION] block (0x51883ac) size allocated from allocator: 576
+[04/16/2023 15:49:45] [INFORMATION] deallocated block (0x518208c) : 90
+[04/16/2023 15:49:45] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:46] [INFORMATION] block (0x5188604) size allocated from allocator: 584
+[04/16/2023 15:49:46] [INFORMATION] deallocated block (0x518208c) : 91
+[04/16/2023 15:49:46] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:46] [INFORMATION] block (0x5188864) size allocated from allocator: 592
+[04/16/2023 15:49:46] [INFORMATION] deallocated block (0x518208c) : 92
+[04/16/2023 15:49:46] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:47] [INFORMATION] block (0x5188acc) size allocated from allocator: 600
+[04/16/2023 15:49:47] [INFORMATION] deallocated block (0x518208c) : 93
+[04/16/2023 15:49:47] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:47] [INFORMATION] block (0x5188d3c) size allocated from allocator: 608
+[04/16/2023 15:49:47] [INFORMATION] deallocated block (0x518208c) : 94
+[04/16/2023 15:49:47] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:47] [INFORMATION] block (0x5188fb4) size allocated from allocator: 616
+[04/16/2023 15:49:47] [INFORMATION] deallocated block (0x518208c) : 95
+[04/16/2023 15:49:47] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:48] [INFORMATION] block (0x5189234) size allocated from allocator: 620
+[04/16/2023 15:49:48] [INFORMATION] deallocated block (0x518208c) : 96
+[04/16/2023 15:49:48] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:48] [INFORMATION] block (0x51894b8) size allocated from allocator: 628
+[04/16/2023 15:49:48] [INFORMATION] deallocated block (0x518208c) : 97
+[04/16/2023 15:49:48] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:49] [INFORMATION] block (0x5189744) size allocated from allocator: 636
+[04/16/2023 15:49:49] [INFORMATION] deallocated block (0x518208c) : 98
+[04/16/2023 15:49:49] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:49] [INFORMATION] block (0x51899d8) size allocated from allocator: 644
+[04/16/2023 15:49:49] [INFORMATION] deallocated block (0x518208c) : 99
+[04/16/2023 15:49:49] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:50] [INFORMATION] block (0x5189c74) size allocated from allocator: 652
+[04/16/2023 15:49:50] [INFORMATION] deallocated block (0x518208c) : 100
+[04/16/2023 15:49:50] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:50] [INFORMATION] block (0x5189f18) size allocated from allocator: 660
+[04/16/2023 15:49:50] [INFORMATION] deallocated block (0x518208c) : 101
+[04/16/2023 15:49:50] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:51] [INFORMATION] block (0x518a1c4) size allocated from allocator: 668
+[04/16/2023 15:49:51] [INFORMATION] deallocated block (0x518208c) : 102
+[04/16/2023 15:49:51] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:51] [INFORMATION] block (0x518a478) size allocated from allocator: 676
+[04/16/2023 15:49:51] [INFORMATION] deallocated block (0x518208c) : 103
+[04/16/2023 15:49:51] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:52] [INFORMATION] block (0x518a734) size allocated from allocator: 688
+[04/16/2023 15:49:52] [INFORMATION] deallocated block (0x518208c) : 104
+[04/16/2023 15:49:52] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:53] [INFORMATION] block (0x518a9fc) size allocated from allocator: 696
+[04/16/2023 15:49:53] [INFORMATION] deallocated block (0x518208c) : 105
+[04/16/2023 15:49:53] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:53] [INFORMATION] block (0x518accc) size allocated from allocator: 704
+[04/16/2023 15:49:53] [INFORMATION] deallocated block (0x518208c) : 106
+[04/16/2023 15:49:53] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:54] [INFORMATION] block (0x518afa4) size allocated from allocator: 712
+[04/16/2023 15:49:54] [INFORMATION] deallocated block (0x518208c) : 107
+[04/16/2023 15:49:54] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:54] [INFORMATION] block (0x518b284) size allocated from allocator: 720
+[04/16/2023 15:49:54] [INFORMATION] deallocated block (0x518208c) : 108
+[04/16/2023 15:49:54] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:55] [INFORMATION] block (0x518b56c) size allocated from allocator: 728
+[04/16/2023 15:49:55] [INFORMATION] deallocated block (0x518208c) : 109
+[04/16/2023 15:49:55] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:55] [INFORMATION] block (0x518b85c) size allocated from allocator: 736
+[04/16/2023 15:49:55] [INFORMATION] deallocated block (0x518208c) : 110
+[04/16/2023 15:49:55] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:56] [INFORMATION] block (0x518bb54) size allocated from allocator: 744
+[04/16/2023 15:49:56] [INFORMATION] deallocated block (0x518208c) : 111
+[04/16/2023 15:49:56] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:56] [INFORMATION] block (0x518be54) size allocated from allocator: 752
+[04/16/2023 15:49:56] [INFORMATION] deallocated block (0x518208c) : 112
+[04/16/2023 15:49:56] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:57] [INFORMATION] block (0x518c15c) size allocated from allocator: 760
+[04/16/2023 15:49:57] [INFORMATION] deallocated block (0x518208c) : 113
+[04/16/2023 15:49:57] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:58] [INFORMATION] block (0x518c46c) size allocated from allocator: 768
+[04/16/2023 15:49:58] [INFORMATION] deallocated block (0x518208c) : 114
+[04/16/2023 15:49:58] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:58] [INFORMATION] block (0x518c784) size allocated from allocator: 776
+[04/16/2023 15:49:58] [INFORMATION] deallocated block (0x518208c) : 115
+[04/16/2023 15:49:58] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:59] [INFORMATION] block (0x518caa4) size allocated from allocator: 784
+[04/16/2023 15:49:59] [INFORMATION] deallocated block (0x518208c) : 116
+[04/16/2023 15:49:59] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:49:59] [INFORMATION] block (0x518cdcc) size allocated from allocator: 792
+[04/16/2023 15:49:59] [INFORMATION] deallocated block (0x518208c) : 117
+[04/16/2023 15:49:59] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:00] [INFORMATION] block (0x518d0fc) size allocated from allocator: 800
+[04/16/2023 15:50:00] [INFORMATION] deallocated block (0x518208c) : 118
+[04/16/2023 15:50:00] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:01] [INFORMATION] block (0x518d434) size allocated from allocator: 808
+[04/16/2023 15:50:01] [INFORMATION] deallocated block (0x518208c) : 119
+[04/16/2023 15:50:01] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:01] [INFORMATION] block (0x518d774) size allocated from allocator: 816
+[04/16/2023 15:50:01] [INFORMATION] deallocated block (0x518208c) : 120
+[04/16/2023 15:50:01] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:02] [INFORMATION] block (0x518dabc) size allocated from allocator: 824
+[04/16/2023 15:50:02] [INFORMATION] deallocated block (0x518208c) : 121
+[04/16/2023 15:50:02] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:03] [INFORMATION] block (0x518de0c) size allocated from allocator: 832
+[04/16/2023 15:50:03] [INFORMATION] deallocated block (0x518208c) : 122
+[04/16/2023 15:50:03] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:03] [INFORMATION] block (0x518e164) size allocated from allocator: 844
+[04/16/2023 15:50:03] [INFORMATION] deallocated block (0x518208c) : 123
+[04/16/2023 15:50:03] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:04] [INFORMATION] block (0x518e4c8) size allocated from allocator: 852
+[04/16/2023 15:50:04] [INFORMATION] deallocated block (0x518208c) : 124
+[04/16/2023 15:50:04] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:04] [INFORMATION] block (0x518e834) size allocated from allocator: 860
+[04/16/2023 15:50:05] [INFORMATION] deallocated block (0x518208c) : 125
+[04/16/2023 15:50:05] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:05] [INFORMATION] block (0x518eba8) size allocated from allocator: 868
+[04/16/2023 15:50:05] [INFORMATION] deallocated block (0x518208c) : 126
+[04/16/2023 15:50:05] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:06] [INFORMATION] block (0x518ef24) size allocated from allocator: 876
+[04/16/2023 15:50:06] [INFORMATION] deallocated block (0x518208c) : 127
+[04/16/2023 15:50:06] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:07] [INFORMATION] block (0x518f2a8) size allocated from allocator: 884
+[04/16/2023 15:50:07] [INFORMATION] deallocated block (0x518208c) : 128
+[04/16/2023 15:50:07] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:07] [INFORMATION] block (0x518f634) size allocated from allocator: 892
+[04/16/2023 15:50:07] [INFORMATION] deallocated block (0x518208c) : 129
+[04/16/2023 15:50:07] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:08] [INFORMATION] block (0x518f9c8) size allocated from allocator: 900
+[04/16/2023 15:50:08] [INFORMATION] deallocated block (0x518208c) : 130
+[04/16/2023 15:50:08] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:09] [INFORMATION] block (0x518fd64) size allocated from allocator: 908
+[04/16/2023 15:50:09] [INFORMATION] deallocated block (0x518208c) : 131
+[04/16/2023 15:50:09] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:09] [INFORMATION] block (0x5190108) size allocated from allocator: 920
+[04/16/2023 15:50:09] [INFORMATION] deallocated block (0x518208c) : 132
+[04/16/2023 15:50:09] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:10] [INFORMATION] block (0x51904b8) size allocated from allocator: 928
+[04/16/2023 15:50:10] [INFORMATION] deallocated block (0x518208c) : 133
+[04/16/2023 15:50:10] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:11] [INFORMATION] block (0x5190870) size allocated from allocator: 936
+[04/16/2023 15:50:11] [INFORMATION] deallocated block (0x518208c) : 134
+[04/16/2023 15:50:11] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:11] [INFORMATION] block (0x5190c30) size allocated from allocator: 944
+[04/16/2023 15:50:11] [INFORMATION] deallocated block (0x518208c) : 135
+[04/16/2023 15:50:11] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:12] [INFORMATION] block (0x5190ff8) size allocated from allocator: 952
+[04/16/2023 15:50:12] [INFORMATION] deallocated block (0x518208c) : 136
+[04/16/2023 15:50:12] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:13] [INFORMATION] block (0x51913c8) size allocated from allocator: 960
+[04/16/2023 15:50:13] [INFORMATION] deallocated block (0x518208c) : 137
+[04/16/2023 15:50:13] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:14] [INFORMATION] block (0x51917a0) size allocated from allocator: 968
+[04/16/2023 15:50:14] [INFORMATION] deallocated block (0x518208c) : 138
+[04/16/2023 15:50:14] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:14] [INFORMATION] block (0x5191b80) size allocated from allocator: 976
+[04/16/2023 15:50:14] [INFORMATION] deallocated block (0x518208c) : 139
+[04/16/2023 15:50:14] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:15] [INFORMATION] block (0x5191f68) size allocated from allocator: 988
+[04/16/2023 15:50:15] [INFORMATION] deallocated block (0x518208c) : 140
+[04/16/2023 15:50:15] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:16] [INFORMATION] block (0x519235c) size allocated from allocator: 996
+[04/16/2023 15:50:16] [INFORMATION] deallocated block (0x518208c) : 141
+[04/16/2023 15:50:16] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:17] [INFORMATION] block (0x5192758) size allocated from allocator: 1004
+[04/16/2023 15:50:17] [INFORMATION] deallocated block (0x518208c) : 142
+[04/16/2023 15:50:17] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:17] [INFORMATION] block (0x5192b5c) size allocated from allocator: 1012
+[04/16/2023 15:50:17] [INFORMATION] deallocated block (0x518208c) : 143
+[04/16/2023 15:50:17] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:18] [INFORMATION] block (0x5192f68) size allocated from allocator: 1020
+[04/16/2023 15:50:18] [INFORMATION] deallocated block (0x518208c) : 144
+[04/16/2023 15:50:18] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:19] [INFORMATION] block (0x519337c) size allocated from allocator: 1028
+[04/16/2023 15:50:19] [INFORMATION] deallocated block (0x518208c) : 145
+[04/16/2023 15:50:19] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:20] [INFORMATION] block (0x5193798) size allocated from allocator: 1040
+[04/16/2023 15:50:20] [INFORMATION] deallocated block (0x518208c) : 146
+[04/16/2023 15:50:20] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:21] [INFORMATION] block (0x5193bc0) size allocated from allocator: 1048
+[04/16/2023 15:50:21] [INFORMATION] deallocated block (0x518208c) : 147
+[04/16/2023 15:50:21] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:21] [INFORMATION] block (0x5193ff0) size allocated from allocator: 1056
+[04/16/2023 15:50:21] [INFORMATION] deallocated block (0x518208c) : 148
+[04/16/2023 15:50:21] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:22] [INFORMATION] block (0x5194428) size allocated from allocator: 1064
+[04/16/2023 15:50:22] [INFORMATION] deallocated block (0x518208c) : 149
+[04/16/2023 15:50:22] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:23] [INFORMATION] block (0x5194868) size allocated from allocator: 1072
+[04/16/2023 15:50:23] [INFORMATION] deallocated block (0x518208c) : 150
+[04/16/2023 15:50:23] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:24] [INFORMATION] block (0x5194cb0) size allocated from allocator: 1080
+[04/16/2023 15:50:24] [INFORMATION] deallocated block (0x518208c) : 151
+[04/16/2023 15:50:24] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:25] [INFORMATION] block (0x5195100) size allocated from allocator: 1092
+[04/16/2023 15:50:25] [INFORMATION] deallocated block (0x518208c) : 152
+[04/16/2023 15:50:25] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:26] [INFORMATION] block (0x519555c) size allocated from allocator: 1100
+[04/16/2023 15:50:26] [INFORMATION] deallocated block (0x518208c) : 153
+[04/16/2023 15:50:26] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:27] [INFORMATION] block (0x51959c0) size allocated from allocator: 1108
+[04/16/2023 15:50:27] [INFORMATION] deallocated block (0x518208c) : 154
+[04/16/2023 15:50:27] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:28] [INFORMATION] block (0x5195e2c) size allocated from allocator: 1116
+[04/16/2023 15:50:28] [INFORMATION] deallocated block (0x518208c) : 155
+[04/16/2023 15:50:28] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:29] [INFORMATION] block (0x51962a0) size allocated from allocator: 1124
+[04/16/2023 15:50:29] [INFORMATION] deallocated block (0x518208c) : 156
+[04/16/2023 15:50:29] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:30] [INFORMATION] block (0x519671c) size allocated from allocator: 1136
+[04/16/2023 15:50:30] [INFORMATION] deallocated block (0x518208c) : 157
+[04/16/2023 15:50:30] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:31] [INFORMATION] block (0x5196ba4) size allocated from allocator: 1144
+[04/16/2023 15:50:31] [INFORMATION] deallocated block (0x518208c) : 158
+[04/16/2023 15:50:31] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:32] [INFORMATION] block (0x5197034) size allocated from allocator: 1152
+[04/16/2023 15:50:32] [INFORMATION] deallocated block (0x518208c) : 159
+[04/16/2023 15:50:32] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:33] [INFORMATION] block (0x51974cc) size allocated from allocator: 1160
+[04/16/2023 15:50:33] [INFORMATION] deallocated block (0x518208c) : 160
+[04/16/2023 15:50:33] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:34] [INFORMATION] block (0x519796c) size allocated from allocator: 1168
+[04/16/2023 15:50:34] [INFORMATION] deallocated block (0x518208c) : 161
+[04/16/2023 15:50:34] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:35] [INFORMATION] block (0x5197e14) size allocated from allocator: 1180
+[04/16/2023 15:50:35] [INFORMATION] deallocated block (0x518208c) : 162
+[04/16/2023 15:50:35] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:37] [INFORMATION] block (0x51982c8) size allocated from allocator: 1188
+[04/16/2023 15:50:37] [INFORMATION] deallocated block (0x518208c) : 163
+[04/16/2023 15:50:37] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:38] [INFORMATION] block (0x5198784) size allocated from allocator: 1196
+[04/16/2023 15:50:38] [INFORMATION] deallocated block (0x518208c) : 164
+[04/16/2023 15:50:38] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:39] [INFORMATION] block (0x5198c48) size allocated from allocator: 1204
+[04/16/2023 15:50:39] [INFORMATION] deallocated block (0x518208c) : 165
+[04/16/2023 15:50:39] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:41] [INFORMATION] block (0x5199114) size allocated from allocator: 1212
+[04/16/2023 15:50:41] [INFORMATION] deallocated block (0x518208c) : 166
+[04/16/2023 15:50:41] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:42] [INFORMATION] block (0x51995e8) size allocated from allocator: 1224
+[04/16/2023 15:50:42] [INFORMATION] deallocated block (0x518208c) : 167
+[04/16/2023 15:50:42] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:43] [INFORMATION] block (0x5199ac8) size allocated from allocator: 1232
+[04/16/2023 15:50:43] [INFORMATION] deallocated block (0x518208c) : 168
+[04/16/2023 15:50:43] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:45] [INFORMATION] block (0x5199fb0) size allocated from allocator: 1240
+[04/16/2023 15:50:45] [INFORMATION] deallocated block (0x518208c) : 169
+[04/16/2023 15:50:45] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:46] [INFORMATION] block (0x519a4a0) size allocated from allocator: 1248
+[04/16/2023 15:50:46] [INFORMATION] deallocated block (0x518208c) : 170
+[04/16/2023 15:50:46] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:48] [INFORMATION] block (0x519a998) size allocated from allocator: 1260
+[04/16/2023 15:50:48] [INFORMATION] deallocated block (0x518208c) : 171
+[04/16/2023 15:50:48] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:49] [INFORMATION] block (0x519ae9c) size allocated from allocator: 1268
+[04/16/2023 15:50:49] [INFORMATION] deallocated block (0x518208c) : 172
+[04/16/2023 15:50:49] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:50] [INFORMATION] block (0x519b3a8) size allocated from allocator: 1276
+[04/16/2023 15:50:50] [INFORMATION] deallocated block (0x518208c) : 173
+[04/16/2023 15:50:50] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:52] [INFORMATION] block (0x519b8bc) size allocated from allocator: 1284
+[04/16/2023 15:50:52] [INFORMATION] deallocated block (0x518208c) : 174
+[04/16/2023 15:50:52] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:53] [INFORMATION] block (0x519bdd8) size allocated from allocator: 1296
+[04/16/2023 15:50:53] [INFORMATION] deallocated block (0x518208c) : 175
+[04/16/2023 15:50:53] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:55] [INFORMATION] block (0x519c300) size allocated from allocator: 1304
+[04/16/2023 15:50:55] [INFORMATION] deallocated block (0x518208c) : 176
+[04/16/2023 15:50:55] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:56] [INFORMATION] block (0x519c830) size allocated from allocator: 1312
+[04/16/2023 15:50:56] [INFORMATION] deallocated block (0x518208c) : 177
+[04/16/2023 15:50:56] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:50:58] [INFORMATION] block (0x519cd68) size allocated from allocator: 1320
+[04/16/2023 15:50:58] [INFORMATION] deallocated block (0x518208c) : 178
+[04/16/2023 15:50:58] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:00] [INFORMATION] block (0x519d2a8) size allocated from allocator: 1332
+[04/16/2023 15:51:00] [INFORMATION] deallocated block (0x518208c) : 179
+[04/16/2023 15:51:00] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:02] [INFORMATION] block (0x519d7f4) size allocated from allocator: 1340
+[04/16/2023 15:51:02] [INFORMATION] deallocated block (0x518208c) : 180
+[04/16/2023 15:51:02] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:03] [INFORMATION] block (0x519dd48) size allocated from allocator: 1348
+[04/16/2023 15:51:03] [INFORMATION] deallocated block (0x518208c) : 181
+[04/16/2023 15:51:03] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:05] [INFORMATION] block (0x519e2a4) size allocated from allocator: 1356
+[04/16/2023 15:51:05] [INFORMATION] deallocated block (0x518208c) : 182
+[04/16/2023 15:51:05] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:07] [INFORMATION] block (0x519e808) size allocated from allocator: 1368
+[04/16/2023 15:51:07] [INFORMATION] deallocated block (0x518208c) : 183
+[04/16/2023 15:51:07] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:08] [INFORMATION] block (0x519ed78) size allocated from allocator: 1376
+[04/16/2023 15:51:08] [INFORMATION] deallocated block (0x518208c) : 184
+[04/16/2023 15:51:08] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:10] [INFORMATION] block (0x519f2f0) size allocated from allocator: 1384
+[04/16/2023 15:51:10] [INFORMATION] deallocated block (0x518208c) : 185
+[04/16/2023 15:51:10] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:12] [INFORMATION] block (0x519f870) size allocated from allocator: 1392
+[04/16/2023 15:51:12] [INFORMATION] deallocated block (0x518208c) : 186
+[04/16/2023 15:51:12] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:13] [INFORMATION] block (0x519fdf8) size allocated from allocator: 1404
+[04/16/2023 15:51:13] [INFORMATION] deallocated block (0x518208c) : 187
+[04/16/2023 15:51:13] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:15] [INFORMATION] block (0x51a038c) size allocated from allocator: 1412
+[04/16/2023 15:51:15] [INFORMATION] deallocated block (0x518208c) : 188
+[04/16/2023 15:51:15] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:17] [INFORMATION] block (0x51a0928) size allocated from allocator: 1420
+[04/16/2023 15:51:17] [INFORMATION] deallocated block (0x518208c) : 189
+[04/16/2023 15:51:17] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:18] [INFORMATION] block (0x51a0ecc) size allocated from allocator: 1428
+[04/16/2023 15:51:18] [INFORMATION] deallocated block (0x518208c) : 190
+[04/16/2023 15:51:18] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:20] [INFORMATION] block (0x51a1478) size allocated from allocator: 1440
+[04/16/2023 15:51:20] [INFORMATION] deallocated block (0x518208c) : 191
+[04/16/2023 15:51:20] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:22] [INFORMATION] block (0x51a1a30) size allocated from allocator: 1448
+[04/16/2023 15:51:22] [INFORMATION] deallocated block (0x518208c) : 192
+[04/16/2023 15:51:22] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:23] [INFORMATION] block (0x51a1ff0) size allocated from allocator: 1456
+[04/16/2023 15:51:23] [INFORMATION] deallocated block (0x518208c) : 193
+[04/16/2023 15:51:23] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:25] [INFORMATION] block (0x51a25b8) size allocated from allocator: 1468
+[04/16/2023 15:51:25] [INFORMATION] deallocated block (0x518208c) : 194
+[04/16/2023 15:51:25] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:27] [INFORMATION] block (0x51a2b8c) size allocated from allocator: 1476
+[04/16/2023 15:51:27] [INFORMATION] deallocated block (0x518208c) : 195
+[04/16/2023 15:51:27] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:28] [INFORMATION] block (0x51a3168) size allocated from allocator: 1484
+[04/16/2023 15:51:28] [INFORMATION] deallocated block (0x518208c) : 196
+[04/16/2023 15:51:28] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:30] [INFORMATION] block (0x51a374c) size allocated from allocator: 1496
+[04/16/2023 15:51:30] [INFORMATION] deallocated block (0x518208c) : 197
+[04/16/2023 15:51:30] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:32] [INFORMATION] block (0x51a3d3c) size allocated from allocator: 1504
+[04/16/2023 15:51:32] [INFORMATION] deallocated block (0x518208c) : 198
+[04/16/2023 15:51:32] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:33] [INFORMATION] block (0x51a4334) size allocated from allocator: 1512
+[04/16/2023 15:51:33] [INFORMATION] deallocated block (0x518208c) : 199
+[04/16/2023 15:51:33] [INFORMATION] block (0x518208c) size allocated from allocator: 20
+[04/16/2023 15:51:35] [INFORMATION] block (0x51a4934) size allocated from allocator: 1520
+[04/16/2023 15:51:35] [INFORMATION] deallocated block (0x518208c) : 200
+[04/16/2023 15:52:30] [INFORMATION] deallocated block (0x51a4934) : 0 7 8 8 6 5 7 8 6 7 3 6 4 7 9 0 5 0 3 5 5 2 3 6 3 2 1 3 9 3 2 1 8 5 0 6 2 2 9 5 1 3 5 9 7 7 6 8 7 1 7 3 2 6 3 2 9 4 7 4 2 5 3 3 2 4 4 3 5 9 4 4 9 9 6 3 4 0 3 3 4 2 9 2 0 3 0 4 2 8 4 0 1 1 9 8 4 6 2 3 9 0 4 1 7 7 2 1 2 1 3 8 9 1 9 6 3 8 8 3 0 2 5 7 6 4 2 7 9 0 2 4 2 6 3 7 1 0 5 0 6 1 9 2 6 6 2 4 9 5 2 8 2 9 9 3 1 1 1 3 4 6 2 8 5 7 2 7 0 7 6 3 3 1 7 2 3 7 3 9 6 9 8 8 9 4 3 9 2 2 4 4 5 6 2 1 4 5 1 6 6 4 2 4 0 2 5 4 0 3 3 2 9 1 8 6 4 1 3 1 2 2 7 4 2 8 2 9 4 8 5 3 2 7 7 5 2 4 2 4 2 4 0 7 5 7 3 9 0 3 2 4 0 3 2 1 2 5 7 4 0 5 5 7 9 5 6 8 6 6 0 2 2 6 0 3 1 9 0 4 1 7 0 3 2 4 0 6 2 3 5 1 7 0 0 8 5 8 7 9 6 1 7 8 9 2 2 2 2 2 7 8 9 6 2 3 7 0 3 8 9 7 3 7 4 7 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[04/16/2023 15:52:30] [INFORMATION] allocator is destroyed

@@ -1,0 +1,19 @@
+[30/04/2023 20:29:14] [INFORMATION] allocator_descriptor is created
+[30/04/2023 20:29:14] [INFORMATION] size of memory allocated for allocator_descriptor: 10000
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b6450) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b6478) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b64a0) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b64c8) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b64f0) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b6518) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b6540) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] block (0x4b6568) size allocated from allocator_descriptor: 16
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6468) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6558) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6508) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b64e0) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b64b8) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6580) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6490) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] deallocated block (0x4b6530) : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[30/04/2023 20:29:14] [INFORMATION] allocator_descriptor is destroyed

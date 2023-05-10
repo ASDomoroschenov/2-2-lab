@@ -1,0 +1,14 @@
+# ninja log v5
+19	511	1680469455065996440	CMakeFiles/task6.dir/src/memory/memory.cpp.o	ee65abf74100c90d
+18	652	1680469455207996102	CMakeFiles/task6.dir/src/builder/builder.cpp.o	2f31962a0ada20c0
+19	669	1680469455223996067	CMakeFiles/task6.dir/src/builder_concrete/builder_concrete.cpp.o	5ee98623106819
+669	686	1680469455241996028	CMakeFiles/task6.dir/src/long_number/long_number.cpp.o	58ab6cd75787c8da
+19	729	1680469455284995935	CMakeFiles/task6.dir/src/logger/logger.cpp.o	1fc2cdadd407cc1b
+0	777	1680469455331995834	CMakeFiles/task6.dir/src/task6.cpp.o	b2ce0a1b5f9bc4a1
+19	924	1680469455478995516	CMakeFiles/task6.dir/src/logger_concrete/logger_concrete.cpp.o	a8a3a175a74cadfc
+652	1097	1680469455652995140	CMakeFiles/task6.dir/src/bigint/bigint.cpp.o	622ac1e3ffaa960f
+512	1209	1680469455763994900	CMakeFiles/task6.dir/src/allocator/allocator.cpp.o	384cdd334b80f126
+686	1237	1680469455792994837	CMakeFiles/task6.dir/src/string_number/string_number.cpp.o	b2c5cd60f8c0a21c
+730	1345	1680469455900994603	CMakeFiles/task6.dir/src/vector_number/vector_number.cpp.o	fa2ddf46afb1168d
+777	1520	1680469456074994227	CMakeFiles/task6.dir/src/bigint_concrete/bigint_concrete.cpp.o	8869e04729ca6007
+1520	1617	1680469456171994017	task6	efc44d0af9cbbb58

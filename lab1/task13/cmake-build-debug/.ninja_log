@@ -1,0 +1,16 @@
+# ninja log v5
+1	359	1683380738599289582	CMakeFiles/my_trees.dir/src/memory/memory.cpp.o	cc4f6c10177f8140
+1	378	1683380738619289625	CMakeFiles/my_trees.dir/src/logger_holder/logger_holder.cpp.o	545dd6ea9b785dd9
+1	430	1683380738671289736	CMakeFiles/my_trees.dir/src/logger/logger.cpp.o	bed57462077f4a74
+0	440	1683380738681289757	CMakeFiles/my_trees.dir/src/builder/builder.cpp.o	880c037a10587b3f
+1	520	1683380738761289928	CMakeFiles/my_trees.dir/src/builder_concrete/builder_concrete.cpp.o	bf77d2295a545d89
+1	686	1683380738926290280	CMakeFiles/my_trees.dir/src/logger_concrete/logger_concrete.cpp.o	acfa84bb0ae64d80
+686	703	1683380738944290319	CMakeFiles/my_trees.dir/src/associative_container/associative_container.cpp.o	17de771909ee1653
+360	714	1683380738955290342	CMakeFiles/my_trees.dir/src/memory_holder/memory_holder.cpp.o	1a339a26a40c6eec
+703	718	1683380738959290351	CMakeFiles/my_trees.dir/src/binary_search_tree/binary_search_tree.cpp.o	fde362a32f3b6a44
+714	730	1683380738971290376	CMakeFiles/my_trees.dir/src/red_black_tree/red_black_tree.cpp.o	d4b18eb93d15ff08
+378	808	1683380739049290543	CMakeFiles/my_trees.dir/src/allocator_list/allocator_list.cpp.o	cfac6d303075838d
+430	867	1683380739108290669	CMakeFiles/my_trees.dir/src/allocator_descriptor/allocator_descriptor.cpp.o	541f57edc1512aa3
+520	961	1683380739202290869	CMakeFiles/my_trees.dir/src/allocator_buddies/allocator_buddies.cpp.o	c177dfe82cf562e1
+440	1089	1683380739329291140	CMakeFiles/my_trees.dir/src/main.cpp.o	b0ac327ea40bba9c
+1089	1163	1683380739403291298	my_trees	a835f37c81b10e81

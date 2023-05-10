@@ -1,0 +1,14 @@
+CC=g++
+CFLAGS=
+LDFLAGS=-lm -w -std=c++17
+SOURCES=../test.cpp
+OBJECTS=$(SOURCES:.c=.o)
+EXECUTABLE=test
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(LDFLAGS) $(CFLAGS) $(OBJECTS) -o $(EXECUTABLE)
+
+clean:
+	rm -f $(EXECUTABLE)
