@@ -1,3 +1,3 @@
-/home/alexandr/2-2-lab/lab1/task7/cmake-build-debug/CMakeFiles/bigint_number.dir
-/home/alexandr/2-2-lab/lab1/task7/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alexandr/2-2-lab/lab1/task7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alexandr/bigint_number/cmake-build-debug/CMakeFiles/bigint_number.dir
+/home/alexandr/bigint_number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alexandr/bigint_number/cmake-build-debug/CMakeFiles/rebuild_cache.dir

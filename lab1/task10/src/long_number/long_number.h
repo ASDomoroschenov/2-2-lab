@@ -12,7 +12,15 @@ protected:
     tvalue _number;
 
 public:
+
+    //begin region get_representation
+
     tvalue get_number() const;
+
+    //end region get_representation
+
+
+    //begin region addition
 
     virtual long_number<tvalue> *add(
             const long_number<tvalue>*) = 0;
@@ -20,11 +28,21 @@ public:
     long_number<tvalue> *operator+=(
             const long_number<tvalue>*);
 
+    //end region addition
+
+
+    //begin region sum
+
     virtual long_number<tvalue> *sum(
             const long_number<tvalue>*) const = 0;
 
     long_number<tvalue> *operator+(
             const long_number<tvalue>*) const;
+
+    //end region sum
+
+
+    //begin regin subtract
 
     virtual long_number<tvalue> *subtract(
             const long_number<tvalue>*) = 0;
@@ -32,11 +50,21 @@ public:
     long_number<tvalue> *operator-=(
             const long_number<tvalue>*);
 
+    //end region subtract
+
+
+    //begin region subtraction
+
     virtual long_number<tvalue> *subtraction(
             const long_number<tvalue>*) const = 0;
 
     long_number<tvalue> *operator-(
             const long_number<tvalue>*) const;
+
+    //end region subtraction
+
+
+    //begin region multiply
 
     virtual long_number<tvalue> *multiply(
             const long_number<tvalue>*) = 0;
@@ -44,23 +72,21 @@ public:
     long_number<tvalue> *operator*=(
             const long_number<tvalue>*);
 
+    //end region multiply
+
+
+    //begin region multiplication
+
     virtual long_number<tvalue> *multiplication(
             const long_number<tvalue>*) const = 0;
 
     long_number<tvalue> *operator*(
             const long_number<tvalue>*) const;
 
-    virtual long_number<tvalue> *divide(
-            const long_number<tvalue>*) = 0;
+    //end region multiplication
 
-    long_number<tvalue> *operator/=(
-            const long_number<tvalue>*);
 
-    virtual long_number<tvalue> *division(
-            const long_number<tvalue>*) const = 0;
-
-    long_number<tvalue> *operator/(
-            const long_number<tvalue>*) const;
+    //begin region div
 
     virtual long_number<tvalue> *div(
             const unsigned long&) = 0;
@@ -68,11 +94,21 @@ public:
     long_number<tvalue> *operator/=(
             const unsigned long&);
 
+    //end region div
+
+
+    //begin region division
+
     virtual long_number<tvalue> *division(
-            const unsigned long&) const = 0;
+            const unsigned long&) = 0;
 
     long_number<tvalue> *operator/(
-            const unsigned long&) const;
+            const unsigned long&);
+
+    //end region division
+
+
+    //begin region mod
 
     virtual long_number<tvalue> *mod(
             const unsigned long&) = 0;
@@ -80,17 +116,32 @@ public:
     long_number<tvalue> *operator%=(
             const unsigned long&);
 
+    //end region mod
+
+
+    //begin region module
+
     virtual long_number<tvalue> *module(
             const unsigned long&) = 0;
 
     long_number<tvalue> *operator%(
             const unsigned long&);
 
+    //end region module
+
+
+    //begin region pow
+
     virtual long_number<tvalue> *pow(
             unsigned long) = 0;
 
     long_number<tvalue> *operator^(
             unsigned long);
+
+    //end region pow
+
+
+    //begin region comparison
 
     virtual bool lower_than(
             const long_number<tvalue>*) const = 0;
@@ -128,14 +179,30 @@ public:
     bool operator!=(
             const long_number<tvalue>*) const;
 
+    //end region comparison
+
+
+    //begin region destructor
+
     virtual ~long_number() = default;
+
+    //end region destructor
+
 };
+
+
+//begin region get_representation
 
 template<typename tvalue>
 tvalue long_number<tvalue>::get_number() const
 {
     return _number;
 }
+
+//end region get_representation
+
+
+//begin region addition
 
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator+=(
@@ -144,12 +211,22 @@ long_number<tvalue> *long_number<tvalue>::operator+=(
     return add(other);
 }
 
+//end region addition
+
+
+//begin region sum
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator+(
         const long_number<tvalue> *other) const
 {
     return sum(other);
 }
+
+//end region sum
+
+
+//begin region subtract
 
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator-=(
@@ -158,12 +235,22 @@ long_number<tvalue> *long_number<tvalue>::operator-=(
     return subtract(other);
 }
 
+//end region subtract
+
+
+//begin region subtraction
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator-(
         const long_number<tvalue> *other) const
 {
     return subtraction(other);
 }
+
+//end region subtraction
+
+
+//begin region multiply
 
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator*=(
@@ -172,12 +259,22 @@ long_number<tvalue> *long_number<tvalue>::operator*=(
     return multiply(other);
 }
 
+//end region multiply
+
+
+//begin region multiplication
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator*(
         const long_number<tvalue> *other) const
 {
     return multiplication(other);
 }
+
+//end region multiplication
+
+
+//begin region div
 
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator/=(
@@ -186,26 +283,22 @@ long_number<tvalue> *long_number<tvalue>::operator/=(
     return div(target);
 }
 
+//end region div
+
+
+//begin region division
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator/(
-        const unsigned long &target) const
+        const unsigned long &target)
 {
     return division(target);
 }
 
-template<typename tvalue>
-long_number<tvalue> *long_number<tvalue>::operator/=(
-        const long_number<tvalue> *other)
-{
-    return divide(other);
-}
+//end region division
 
-template<typename tvalue>
-long_number<tvalue> *long_number<tvalue>::operator/(
-        const long_number<tvalue> *other) const
-{
-    return division(other);
-}
+
+//begin region mod
 
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator%=(
@@ -214,6 +307,11 @@ long_number<tvalue> *long_number<tvalue>::operator%=(
     return mod(target);
 }
 
+//end region mod
+
+
+//begin region module
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator%(
         const unsigned long &target)
@@ -221,12 +319,22 @@ long_number<tvalue> *long_number<tvalue>::operator%(
     return module(target);
 }
 
+//end region module
+
+
+//begin region pow
+
 template<typename tvalue>
 long_number<tvalue> *long_number<tvalue>::operator^(
         unsigned long step)
 {
     return pow(step);
 }
+
+//end region pow
+
+
+//begin region comparison
 
 template<typename tvalue>
 bool long_number<tvalue>::operator<(
@@ -269,5 +377,7 @@ bool long_number<tvalue>::operator!=(
 {
     return not_equals(other);
 }
+
+//end region comparison
 
 #endif // LONG_NUMBER_H

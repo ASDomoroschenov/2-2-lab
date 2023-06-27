@@ -1,0 +1,3 @@
+/home/alexandr/bigint_number/build/CMakeFiles/bigint_number.dir
+/home/alexandr/bigint_number/build/CMakeFiles/edit_cache.dir
+/home/alexandr/bigint_number/build/CMakeFiles/rebuild_cache.dir

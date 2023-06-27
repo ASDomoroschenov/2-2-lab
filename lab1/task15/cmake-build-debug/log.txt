@@ -1,0 +1,7 @@
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 3
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 2
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 4
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 1
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 5
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 0
+[05/13/2023 22:22:27] [INFORMATION] Allocate node with key: 6

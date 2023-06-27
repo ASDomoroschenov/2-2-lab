@@ -1,9 +1,6 @@
 #ifndef STRING_NUMBER_H
 #define STRING_NUMBER_H
 
-#define UPPER_BOUND_INT "2147483647"
-#define LOWER_BOUNT_INR ""
-
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -11,7 +8,11 @@
 
 class string_number final : public long_number<std::string>
 {
+
 private:
+
+    //begin region help functions
+
     static bool validate_value(
             const std::string&);
 
@@ -19,7 +20,7 @@ private:
             std::string &,
             std::string &);
 
-    static std::string naiv_mult(
+    static std::string naive_multiply(
             std::string,
             std::string);
 
@@ -27,62 +28,107 @@ private:
             std::string,
             std::string);
 
-    static std::string burnickel_ziegler_division(
-            std::string dividend,
-            std::string divider);
+    //end region help functions
 
-    static std::pair<std::string, std::string> div_three_halves_by_two(
-            std::string first_dividend,
-            std::string second_dividend,
-            std::string third_dividend,
-            std::string first_divider,
-            std::string second_divider);
-
-    static std::string div_two_digits_by_one(
-            std::string dividend,
-            std::string divider);
 public:
+
+    //begin region constructor
+
     explicit string_number(
             std::string);
+
+    //end region constructor
+
+
+    //begin region addition
 
     long_number<std::string> *add(
             const long_number<std::string>*) override;
 
+    //end region addition
+
+
+    //begin region sum
+
     long_number<std::string> *sum(
             const long_number<std::string>*) const override;
+
+    //end region sum
+
+
+    //begin region subtract
 
     long_number<std::string> *subtract(
             const long_number<std::string>*) override;
 
+    //end region subtract
+
+
+    //begin region subtraction
+
     long_number<std::string> *subtraction(
             const long_number<std::string>*) const override;
+
+    //end region subtraction
+
+
+    //begin region multiply
 
     long_number<std::string> *multiply(
             const long_number<std::string>*) override;
 
+    //end region multiply
+
+
+    //begin region multiplication
+
     long_number<std::string> *multiplication(
             const long_number<std::string>*) const override;
 
-    long_number<std::string> *divide(
-            const long_number<std::string>*) override;
+    //end region multiplication
 
-    long_number<std::string> *division(
-            const long_number<std::string>*) const override;
+
+    //begin region div
 
     long_number<std::string> *div(
             const unsigned long&) override;
 
+    //end region div
+
+
+    //begin region division
+
     long_number<std::string> *division(
-            const unsigned long&) const override;
+            const unsigned long&) override;
+
+    //end region division
+
+
+    //begin region mod
 
     long_number<std::string> *mod(
             const unsigned long&) override;
 
+    //end region mod
+
+
+    //begin region module
+
     long_number<std::string> *module(
             const unsigned long&) override;
 
+    //end region module
+
+
+    //begin region pow
+
     long_number<std::string> *pow(
             unsigned long) override;
+
+    //end region pow
+
+
+    //begin region comparison
 
     bool lower_than(
             const long_number<std::string>*) const override;
@@ -102,7 +148,15 @@ public:
     bool not_equals(
             const long_number<std::string>*) const override;
 
+    //end region comparison
+
+
+    //begin region destructor
+
     ~string_number() override = default;
+
+    //end region destructor
+
 };
 
 #endif // STRING_NUMBER_H

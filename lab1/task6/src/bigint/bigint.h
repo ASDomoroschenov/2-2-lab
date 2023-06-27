@@ -2,78 +2,159 @@
 #define BIGINT_H
 
 #include <iostream>
-#include <vector>
 
 class bigint
 {
+
 public:
-    virtual void *get_representation() const = 0;
+
+    virtual void output() const = 0;
+
+    //begin region addition
 
     virtual bigint *add(
-            const bigint*) = 0;
+            bigint const *summand) = 0;
 
     bigint *operator+=(
-            const bigint*);
+            bigint const *summand);
+
+    //end region addition
+
+
+    //begin region sum
 
     virtual bigint *sum(
-            const bigint*) const = 0;
+            bigint const *summand) const = 0;
 
     bigint *operator+(
-            const bigint*) const;
+            bigint const *summand) const;
+
+    //end region sum
+
+
+    //begin region subtract
 
     virtual bigint *subtract(
-            const bigint*) = 0;
+            bigint const *subtrahend) = 0;
 
     bigint *operator-=(
-            const bigint*);
+            bigint const *subtrahend);
+
+    //end region subtract
+
+
+    //begin region subtraction
 
     virtual bigint *subtraction(
-            const bigint*) const = 0;
+            bigint const *subtrahend) const = 0;
 
     bigint *operator-(
-            const bigint*) const;
+            bigint const *subtrahend) const;
+
+    //end region subtraction
+
+
+    //begin region shift
+
+    virtual bigint *shift_left(
+            size_t count_digits) = 0;
+
+    bigint *operator<<=(
+            size_t count_digits);
+
+    //begin region comparison
 
     virtual bool lower_than(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator<(
-            const bigint*) const;
+            bigint const *other) const;
 
     virtual bool greater_than(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator>(
-            const bigint*) const;
+            bigint const *other) const;
 
     virtual bool lower_than_or_equal_to(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator<=(
-            const bigint*) const;
+            bigint const *other) const;
 
     virtual bool greater_than_or_equal_to(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator>=(
-            const bigint*) const;
+            bigint const *other) const;
 
     virtual bool equals(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator==(
-            const bigint*) const;
+            bigint const *other) const;
 
     virtual bool not_equals(
-            const bigint*) const = 0;
+            bigint const *other) const = 0;
 
     bool operator!=(
-            const bigint*) const;
+            bigint const *other) const;
 
-    virtual ~bigint();
+    //end region comparison
+
+
+    //begin region multiplication
+
+    class bigint_multiplication
+    {
+
+    public:
+
+        virtual bigint *multiply(
+                bigint const *left_multiplier,
+                bigint const *right_multiplier) const = 0;
+
+        virtual ~bigint_multiplication() = default;
+
+    };
+
+    //end region multiplication
+
+
+    //begin region division
+
+    class bigint_division
+    {
+
+    public:
+
+        virtual std::pair<bigint*, bigint*> divide(
+                bigint const *dividend,
+                bigint const *divider,
+                bigint_multiplication const *multiplication_implementation) = 0;
+
+        virtual ~bigint_division() = default;
+
+    };
+
+    //end region division
+
+
+    //begin region destructor
+
+    virtual ~bigint() = default;
+
+    //end region destructor
+
+
+    //begin region output
 
     friend std::ostream& operator<<(
-            std::ostream&,
-            const bigint*);
+            std::ostream &stream,
+            bigint const *target_output);
+
+    //end region output
+
 };
 
 #endif // BIGINT_H

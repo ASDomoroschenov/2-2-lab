@@ -1,5 +1,7 @@
 #include "string_number.h"
 
+//begin region help functions
+
 bool string_number::validate_value(
         const std::string &initial_value)
 {
@@ -39,237 +41,7 @@ size_t string_number::make_equal_length(
     return len;
 }
 
-string_number::string_number(
-        std::string init_value)
-{
-    if (validate_value(init_value))
-    {
-        _number = std::move(init_value);
-    }
-    else
-    {
-        throw std::invalid_argument("Initial value is not a number");
-    }
-}
-
-long_number<std::string> *string_number::add(
-        const long_number<std::string> *target)
-{
-    int remainder = 0;
-    std::string result;
-    std::string target_add = target->get_number();
-    std::string number_str = get_number();
-    std::string sign;
-
-    while (target_add.length() >= 1 && target_add[0] == '0')
-    {
-        target_add.erase(0, 1);
-    }
-
-    while (number_str.length() >= 1 && number_str[0] == '0')
-    {
-        number_str.erase(0, 1);
-    }
-
-    if (number_str[0] == '-' && target_add[0] != '-')
-    {
-        target_add = "-" + target_add;
-        long_number<std::string> *temp = new string_number(target_add);
-        long_number<std::string> *result = subtract(temp);
-
-        delete temp;
-
-        return result;
-    }
-
-    if (number_str[0] != '-' && target_add[0] == '-')
-    {
-        target_add = target_add.substr(1, target_add.length() - 1);
-        long_number<std::string> *temp = new string_number(target_add);
-        long_number<std::string> *result = subtract(temp);
-
-        delete temp;
-
-        return result;
-    }
-
-    if (number_str[0] == '-' && target_add[0] == '-')
-    {
-        number_str = number_str.substr(1, number_str.length() - 1);
-        target_add = target_add.substr(1, target_add.length() - 1);
-        sign = "-";
-    }
-
-    make_equal_length(number_str, target_add);
-
-    for(int i = target_add.length() - 1; i >= 0; i--)
-    {
-        result.insert(0, std::to_string(((number_str[i] - '0') + (target_add[i] - '0') + remainder) % 10));
-        remainder = ((number_str[i] - '0') + (target_add[i] - '0') + remainder) / 10;
-    }
-
-    if (remainder)
-    {
-        result.insert(0, std::to_string(remainder));
-    }
-
-    while (!result.empty() && result[0] == '0')
-    {
-        result = result.substr(1, result.length() - 1);
-    }
-
-    if (result.empty())
-    {
-        _number = "0";
-    }
-    else
-    {
-        _number = sign + result;
-    }
-
-    return this;
-}
-
-long_number<std::string> *string_number::sum(
-        const long_number<std::string> *target) const
-{
-    long_number<std::string> *temp = new string_number(_number);
-
-    return temp->add(target);
-}
-
-long_number<std::string> *string_number::subtract(
-        const long_number<std::string> *target)
-{
-    std::string number_str = get_number();
-    std::string target_sub = target->get_number();
-    std::string result;
-    std::string sign;
-    int difference = 0;
-
-    while (target_sub.length() >= 1 && target_sub[0] == '0')
-    {
-        target_sub.erase(0, 1);
-    }
-
-    while (number_str.length() >= 1 && number_str[0] == '0')
-    {
-        number_str.erase(0, 1);
-    }
-
-    if (number_str[0] == '-' && target_sub[0] != '-')
-    {
-        target_sub = "-" + target_sub;
-        long_number<std::string> *temp = new string_number(target_sub);
-        long_number<std::string> *result = add(temp);
-
-        delete temp;
-
-        return result;
-    }
-
-    if (number_str[0] != '-' && target_sub[0] == '-')
-    {
-        target_sub = target_sub.substr(1, target_sub.length() - 1);
-        long_number<std::string> *temp = new string_number(target_sub);
-        long_number<std::string> *result = add(temp);
-
-        delete temp;
-
-        return result;
-    }
-
-    if ((number_str[0] == '-' && target_sub[0] == '-') ||
-        (number_str[0] != '-' && target_sub[0] != '-'))
-    {
-        sign = *this < target ? "-" : "";
-    }
-
-    if (number_str[0] == '-' && target_sub[0] == '-')
-    {
-        if (*this > target)
-        {
-            number_str.swap(target_sub);
-        }
-    }
-    else
-    {
-        if (*this < target)
-        {
-            number_str.swap(target_sub);
-        }
-    }
-
-    if (number_str[0] == '-')
-    {
-        number_str = number_str.substr(1, number_str.length() - 1);
-    }
-
-    if (target_sub[0] == '-')
-    {
-        target_sub = target_sub.substr(1, target_sub.length() - 1);
-    }
-
-    std::cout << number_str << " " << target_sub << std::endl;
-
-    make_equal_length(number_str, target_sub);
-
-    for (int i = number_str.length() - 1; i >= 0; i--)
-    {
-        difference = (number_str[i] - '0') - (target_sub[i] - '0');
-
-        if (difference >= 0)
-        {
-            result.insert(0, std::to_string(difference));
-        }
-        else
-        {
-            int j = i - 1;
-
-            while (j >= 0)
-            {
-                number_str[j] = number_str[j] - '0' ? ((number_str[j] - '0') - 1) % 10 + '0' : '9';
-
-                if (number_str[j] != '9')
-                {
-                    break;
-                }
-                else
-                {
-                    j--;
-                }
-            }
-
-            result.insert(0, std::to_string(difference + 10));
-        }
-    }
-
-    while (!result.empty() && result[0] == '0')
-    {
-        result = result.substr(1, result.length() - 1);
-    }
-
-    if (result.empty())
-    {
-        _number = "0";
-    }
-    else
-    {
-        _number = sign + result;
-    }
-
-    return this;
-}
-
-long_number<std::string> *string_number::subtraction(
-        const long_number<std::string> *target) const
-{
-    long_number<std::string> *temp = new string_number(_number);
-
-    return temp->subtract(target);
-}
-
-std::string string_number::naiv_mult(
+std::string string_number::naive_multiply(
         std::string number,
         std::string multiplier)
 {
@@ -332,9 +104,9 @@ std::string string_number::karatsuba(
 {
     int max_length = std::max(number.length(), multiplier.length());
 
-    if (max_length < 10)
+    if (max_length < 70)
     {
-        return naiv_mult(number, multiplier);
+        return naive_multiply(number, multiplier);
     }
 
     size_t number_length = make_equal_length(number, multiplier);
@@ -414,185 +186,252 @@ std::string string_number::karatsuba(
     return result;
 }
 
-std::string string_number::burnickel_ziegler_division(
-        std::string dividend,
-        std::string divider)
+//end region help functions
+
+
+//begin region constructor
+
+string_number::string_number(
+        std::string init_value)
 {
-    return div_two_digits_by_one(dividend, divider);
+    if (validate_value(init_value))
+    {
+        _number = std::move(init_value);
+    }
+    else
+    {
+        throw std::invalid_argument("Initial value is not a number");
+    }
 }
 
-std::string string_number::div_two_digits_by_one(
-        std::string dividend,
-        std::string divider)
+//end region constructor
+
+
+//begin region addition
+
+long_number<std::string> *string_number::add(
+        const long_number<std::string> *target)
 {
-    long_number<std::string> *int_16_lower_bound = new string_number(std::to_string(INT16_MIN));
-    long_number<std::string> *int_16_upper_bound = new string_number(std::to_string(INT16_MAX));
-    long_number<std::string> *dividend_long = new string_number(dividend);
-    long_number<std::string> *divider_long = new string_number(divider);
+    int remainder = 0;
+    std::string result;
+    std::string target_add = target->get_number();
+    std::string sign;
 
-    if ((*dividend_long > int_16_lower_bound && *dividend_long < int_16_upper_bound) &&
-        (*divider_long > int_16_lower_bound && *divider_long < int_16_upper_bound))
+    if (_number[0] == '-' && target_add[0] != '-')
     {
-        delete int_16_lower_bound;
-        delete int_16_upper_bound;
-        delete dividend_long;
-        delete divider_long;
+        target_add = "-" + target_add;
+        long_number<std::string> *temp = new string_number(target_add);
+        long_number<std::string> *result_sub = subtract(temp);
 
-        return std::to_string(std::stoi(dividend) / std::stoi(divider));
+        delete temp;
+
+        return result_sub;
     }
 
-    delete int_16_lower_bound;
-    delete int_16_upper_bound;
-    delete dividend_long;
-    delete divider_long;
-
-    while (dividend.length() % 4 != 0)
+    if (_number[0] != '-' && target_add[0] == '-')
     {
-        dividend = "0" + dividend;
+        target_add = target_add.substr(1, target_add.length() - 1);
+        long_number<std::string> *temp = new string_number(target_add);
+        long_number<std::string> *result_sub = subtract(temp);
+
+        delete temp;
+
+        return result_sub;
     }
 
-    while (divider.length() % 2 != 0)
+    if (_number[0] == '-' && target_add[0] == '-')
     {
-        divider = "0" + divider;
+        _number = _number.substr(1, _number.length() - 1);
+        target_add = target_add.substr(1, target_add.length() - 1);
+        sign = "-";
     }
 
-    int step_dividend = dividend.length() / 4;
+    make_equal_length(_number, target_add);
 
-    std::string first_dividend = dividend.substr(0, step_dividend);
-    std::string second_dividend = dividend.substr(step_dividend, step_dividend);
-    std::string third_dividend = dividend.substr(2 * step_dividend, step_dividend);
-    std::string fourth_dividend = dividend.substr(3 * step_dividend, step_dividend);
-
-    int step_divider = divider.length() / 2;
-
-    std::string first_divider = divider.substr(0, step_divider);
-    std::string second_divider = divider.substr(step_divider, step_divider);
-
-    std::pair<std::string, std::string> first_div = div_three_halves_by_two(first_dividend,
-                                                                            second_dividend,
-                                                                            third_dividend,
-                                                                            first_divider,
-                                                                            second_divider);
-
-    std::string first_whole_part = first_div.first;
-    std::string first_remainder = first_div.second;
-
-    while (first_remainder.length() % 2 != 0)
+    for(int i = target_add.length() - 1; i >= 0; i--)
     {
-        first_remainder = "0" + first_remainder;
+        result.insert(0, std::to_string(((_number[i] - '0') + (target_add[i] - '0') + remainder) % 10));
+        remainder = ((_number[i] - '0') + (target_add[i] - '0') + remainder) / 10;
     }
 
-    int step_first_remainder = first_remainder.length() / 2;
+    if (remainder)
+    {
+        result.insert(0, std::to_string(remainder));
+    }
 
-    std::string first_remainder_first_part = first_remainder.substr(0, step_first_remainder);
-    std::string first_remainder_second_part = first_remainder.substr(step_first_remainder, step_first_remainder);
+    while (!result.empty() && result[0] == '0')
+    {
+        result = result.substr(1, result.length() - 1);
+    }
 
-    std::pair<std::string, std::string> second_div = div_three_halves_by_two(first_remainder_first_part,
-                                                                             first_remainder_second_part,
-                                                                             fourth_dividend,
-                                                                             first_divider,
-                                                                             second_divider);
+    if (result.empty())
+    {
+        _number = "0";
+    }
+    else
+    {
+        _number = sign + result;
+    }
 
-    return first_whole_part + second_div.first;
+    return this;
 }
 
-std::pair<std::string, std::string> string_number::div_three_halves_by_two(
-        std::string first_dividend,
-        std::string second_dividend,
-        std::string third_dividend,
-        std::string first_divider,
-        std::string second_divider)
+//end region addition
+
+
+//begin region sum
+
+long_number<std::string> *string_number::sum(
+        const long_number<std::string> *target) const
 {
+    long_number<std::string> *temp = new string_number(_number);
 
-    while (first_divider.length() >= 1 && first_divider[0] == '0')
+    return temp->add(target);
+}
+
+//end region sum
+
+
+//begin region subtract
+
+long_number<std::string> *string_number::subtract(
+        const long_number<std::string> *target)
+{
+    std::string number_str = get_number();
+    std::string target_sub = target->get_number();
+    std::string result;
+    std::string sign;
+    int difference = 0;
+
+    if (number_str[0] == '-' && target_sub[0] != '-')
     {
-        first_divider.erase(0, 1);
+        target_sub = "-" + target_sub;
+        long_number<std::string> *temp = new string_number(target_sub);
+        long_number<std::string> *result_add = add(temp);
+
+        delete temp;
+
+        return result_add;
     }
 
-    while (second_divider.length() >= 1 && second_divider[0] == '0')
+    if (number_str[0] != '-' && target_sub[0] == '-')
     {
-        second_divider.erase(0, 1);
+        target_sub = target_sub.substr(1, target_sub.length() - 1);
+        long_number<std::string> *temp = new string_number(target_sub);
+        long_number<std::string> *result_add = add(temp);
+
+        delete temp;
+
+        return result_add;
     }
 
-    while (third_dividend.length() >= 1 && third_dividend[0] == '0')
+    if ((number_str[0] == '-' && target_sub[0] == '-') ||
+        (number_str[0] != '-' && target_sub[0] != '-'))
     {
-        third_dividend.erase(0, 1);
+        sign = *this < target ? "-" : "";
     }
-    std::cout << first_dividend + second_dividend + third_dividend << std::endl;
 
-    long_number<std::string> *one = new string_number("1");
-    long_number<std::string> *zero = new string_number("0");
-
-    std::string B_str = first_divider + second_divider;
-    std::string first_second = first_dividend + second_dividend;
-
-    std::string _q = div_two_digits_by_one(first_second, first_divider);
-
-    long_number<std::string> *B = new string_number(B_str);
-
-    long_number<std::string> *c = new string_number("0");
-    long_number<std::string> *first_second_long = new string_number(first_second);
-    long_number<std::string> *q = new string_number(_q);
-    long_number<std::string> *b1 = new string_number(first_divider);
-    long_number<std::string> *b2 = new string_number(second_divider);
-    long_number<std::string> *q_b1 = *q * b1;
-
-    c = *first_second_long - q_b1;
-
-    long_number<std::string> *D = *q * b2;
-
-    std::string temp_1 = c->get_number();
-    std::string c_third_dividend = temp_1 + third_dividend;
-
-    long_number<std::string> *c_third_dividend_long = new string_number(c_third_dividend);
-    std::cout << c_third_dividend_long->get_number() << " " << D->get_number() << std::endl;
-    long_number<std::string> *R = *c_third_dividend_long - D;
-
-    std::cout << "remainder: " << R->get_number() << std::endl;
-
-    if (*R < zero)
+    if (number_str[0] == '-' && target_sub[0] == '-')
     {
-        *q -= one;
-        *R += B;
-
-        if (*R < zero)
+        if (*this > target)
         {
-            *q -= one;
-            *R += B;
+            number_str.swap(target_sub);
+        }
+    }
+    else
+    {
+        if (*this < target)
+        {
+            number_str.swap(target_sub);
         }
     }
 
-    std::string q_result = q->get_number();
-    std::string r_result = R->get_number();
+    if (number_str[0] == '-')
+    {
+        number_str = number_str.substr(1, number_str.length() - 1);
+    }
 
-    std::cout << "q: " << q_result << std::endl;
-    std::cout << "r: " << r_result << std::endl;
+    if (target_sub[0] == '-')
+    {
+        target_sub = target_sub.substr(1, target_sub.length() - 1);
+    }
 
-    delete zero;
-    delete one;
-    delete B;
-    delete c;
-    delete first_second_long;
-    delete q;
-    delete b1;
-    delete b2;
-    delete q_b1;
-    delete D;
-    delete c_third_dividend_long;
-    delete R;
+    make_equal_length(number_str, target_sub);
 
-    return std::make_pair(q_result, r_result);
+    for (int i = number_str.length() - 1; i >= 0; i--)
+    {
+        difference = (number_str[i] - '0') - (target_sub[i] - '0');
+
+        if (difference >= 0)
+        {
+            result.insert(0, std::to_string(difference));
+        }
+        else
+        {
+            int j = i - 1;
+
+            while (j >= 0)
+            {
+                number_str[j] = number_str[j] - '0' ? ((number_str[j] - '0') - 1) % 10 + '0' : '9';
+
+                if (number_str[j] != '9')
+                {
+                    break;
+                }
+                else
+                {
+                    j--;
+                }
+            }
+
+            result.insert(0, std::to_string(difference + 10));
+        }
+    }
+
+    while (!result.empty() && result[0] == '0')
+    {
+        result = result.substr(1, result.length() - 1);
+    }
+
+    if (result.empty())
+    {
+        _number = "0";
+    }
+    else
+    {
+        _number = sign + result;
+    }
+
+    return this;
 }
+
+//end region subtract
+
+
+//begin region subtraction
+
+long_number<std::string> *string_number::subtraction(
+        const long_number<std::string> *target) const
+{
+    long_number<std::string> *temp = new string_number(_number);
+
+    return temp->subtract(target);
+}
+
+//end region subtraction
+
+
+//begin region multiply
 
 long_number<std::string> *string_number::multiply(
         const long_number<std::string> *target)
 {
     std::string number_str = get_number();
-    std::string target_mult = target->get_number();
+    std::string target_multiply = target->get_number();
     std::string sign;
 
-    if ((number_str[0] == '-' && target_mult[0] != '-') ||
-        (number_str[0] != '-' && target_mult[0] == '-'))
+    if ((number_str[0] == '-' && target_multiply[0] != '-') ||
+        (number_str[0] != '-' && target_multiply[0] == '-'))
     {
         sign = "-";
     }
@@ -602,15 +441,20 @@ long_number<std::string> *string_number::multiply(
         number_str = number_str.substr(1, number_str.length() - 1);
     }
 
-    if (target_mult[0] == '-')
+    if (target_multiply[0] == '-')
     {
-        target_mult = target_mult.substr(1, target_mult.length() - 1);
+        target_multiply = target_multiply.substr(1, target_multiply.length() - 1);
     }
 
-    _number = sign + karatsuba(number_str, target_mult);
+    _number = sign + naive_multiply(number_str, target_multiply);
 
     return this;
 }
+
+//end region multiply
+
+
+//begin region multiplication
 
 long_number<std::string> *string_number::multiplication(
         const long_number<std::string> *target) const
@@ -620,41 +464,10 @@ long_number<std::string> *string_number::multiplication(
     return temp->multiply(target);
 }
 
-long_number<std::string> *string_number::divide(
-        const long_number<std::string> *target)
-{
-    std::string number_str = get_number();
-    std::string target_div = target->get_number();
-    std::string sign;
+//end region multiplication
 
-    if ((number_str[0] == '-' && target_div[0] != '-') ||
-        (number_str[0] != '-' && target_div[0] == '-'))
-    {
-        sign = "-";
-    }
 
-    if (number_str[0] == '-')
-    {
-        number_str = number_str.substr(1, number_str.length() - 1);
-    }
-
-    if (target_div[0] == '-')
-    {
-        target_div = target_div.substr(1, target_div.length() - 1);
-    }
-
-    _number = sign + burnickel_ziegler_division(number_str, target_div);
-
-    return this;
-}
-
-long_number<std::string> *string_number::division(
-        const long_number<std::string> *target) const
-{
-    long_number<std::string> *temp = new string_number(get_number());
-
-    return temp->divide(target);
-}
+//begin region div
 
 long_number<std::string> *string_number::div(
         const unsigned long &target)
@@ -711,13 +524,23 @@ long_number<std::string> *string_number::div(
     return this;
 }
 
+//end region div
+
+
+//begin region division
+
 long_number<std::string> *string_number::division(
-        const unsigned long &target) const
+        const unsigned long &target)
 {
     long_number<std::string> *temp = new string_number(get_number());
 
     return temp->div(target);
 }
+
+//end region division
+
+
+//begin region mod
 
 long_number<std::string> *string_number::mod(
         const unsigned long &target)
@@ -766,6 +589,11 @@ long_number<std::string> *string_number::mod(
     return this;
 }
 
+//end region mod
+
+
+//begin region module
+
 long_number<std::string> *string_number::module(
         const unsigned long &target)
 {
@@ -773,6 +601,11 @@ long_number<std::string> *string_number::module(
 
     return temp->mod(target);
 }
+
+//end region module
+
+
+//begin region pow
 
 long_number<std::string> *string_number::pow(
         unsigned long step)
@@ -798,6 +631,11 @@ long_number<std::string> *string_number::pow(
 
     return result;
 }
+
+//end region pow
+
+
+//begin region comparison
 
 bool string_number::lower_than(
         const long_number<std::string> *target) const
@@ -911,3 +749,5 @@ bool string_number::not_equals(
 {
     return !equals(target);
 }
+
+//end region comparison

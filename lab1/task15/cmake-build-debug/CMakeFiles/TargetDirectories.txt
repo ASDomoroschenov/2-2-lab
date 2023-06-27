@@ -1,0 +1,3 @@
+/home/alexandr/2-2-lab/lab1/task15/cmake-build-debug/CMakeFiles/task15.dir
+/home/alexandr/2-2-lab/lab1/task15/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alexandr/2-2-lab/lab1/task15/cmake-build-debug/CMakeFiles/rebuild_cache.dir

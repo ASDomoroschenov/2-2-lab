@@ -1,63 +1,95 @@
 #include "bigint.h"
 
-bigint::~bigint() = default;
+//begin region addition
 
 bigint *bigint::operator+=(
-        const bigint *other)
+        bigint const *summand)
 {
-    return add(other);
+    return add(summand);
 }
+
+//end region addition
+
+
+//begin region sum
 
 bigint *bigint::operator+(
-        const bigint *other) const
+        bigint const *summand) const
 {
-    return sum(other);
+    return sum(summand);
 }
+
+//end region sum
+
+
+//begin region subtract
 
 bigint *bigint::operator-=(
-        const bigint *other)
+        bigint const *subtrahend)
 {
-    return subtract(other);
+    return subtract(subtrahend);
 }
+
+//end region subtract
+
+
+//begin region subtraction
 
 bigint *bigint::operator-(
-        const bigint *other) const
+        bigint const *subtrahend) const
 {
-    return subtraction(other);
+    return subtraction(subtrahend);
 }
 
+//end region subtraction
+
+
+//begin region shift
+
+bigint *bigint::operator<<=(
+        size_t count_digits)
+{
+    return shift_left(count_digits);
+}
+
+//end region shift
+
+//begin region comparison
+
 bool bigint::operator<(
-        const bigint *other) const
+        bigint const *other) const
 {
     return lower_than(other);
 }
 
 bool bigint::operator>(
-        const bigint *other) const
+        bigint const *other) const
 {
     return greater_than(other);
 }
 
 bool bigint::operator<=(
-        const bigint *other) const
+        bigint const *other) const
 {
     return lower_than_or_equal_to(other);
 }
 
 bool bigint::operator>=(
-        const bigint *other) const
+        bigint const *other) const
 {
     return greater_than_or_equal_to(other);
 }
 
 bool bigint::operator==(
-        const bigint *other) const
+        bigint const *other) const
 {
     return equals(other);
 }
 
 bool bigint::operator!=(
-        const bigint *other) const
+        bigint const *other) const
 {
     return not_equals(other);
 }
+
+//end region comparison

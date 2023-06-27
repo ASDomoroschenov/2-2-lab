@@ -4,10 +4,10 @@ std::string current_date_time()
 {
     std::time_t seconds = std::time(nullptr);
     std::tm* now = std::localtime(&seconds);
- 
+
     char buffer[BUFSIZ];
     strftime(buffer, sizeof(buffer), "[%m/%d/%Y %X]", now);
-    
+
 	return buffer;
 }
 
@@ -74,7 +74,7 @@ logger* logger_concrete::log(
 {
     for (auto& item: _streams_log)
     {
-        if (item.second.second == level)
+        if (static_cast<int>(item.second.second) <= static_cast<int>(level))
         {
             if (item.second.first == nullptr)
             {

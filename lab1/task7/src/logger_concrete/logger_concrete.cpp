@@ -4,10 +4,10 @@ std::string current_date_time()
 {
     std::time_t seconds = std::time(nullptr);
     std::tm* now = std::localtime(&seconds);
- 
+
     char buffer[BUFSIZ];
     strftime(buffer, sizeof(buffer), "[%m/%d/%Y %X]", now);
-    
+
 	return buffer;
 }
 
